@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>I Love You Fatima Begum</title>
+  <style>
+    body {
+      background: pink;
+      text-align: center;
+      font-family: 'Arial', sans-serif;
+      color: red;
+    }
+    .slideshow {
+      font-size: 2em;
+      animation: fade 3s infinite;
+    }
+    @keyframes fade {
+      0% { opacity: 0; }
+      50% { opacity: 1; }
+      100% { opacity: 0; }
+    }
+    img {
+      width: 150px;
+      margin: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>❤️ I Love You Fatima Begum ❤️</h1>
+  <img src="https://example.com/cute-bitmoji.png" alt="Bitmoji">
+  
+  <div class="slideshow">You are my everything 💕</div>
+  
+  <audio autoplay loop>
+    <source src="song.mp3" type="audio/mp3">
+  </audio>
+</body>
+</html>
